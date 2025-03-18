@@ -1,0 +1,18 @@
+# GitBook
+node_modules/
+_book/
+book.pdf
+book.epub
+book.mobi
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.log
+*.tmp
