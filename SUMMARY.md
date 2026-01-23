@@ -61,7 +61,8 @@
   * [8.1 ChatGPT 使用详解](08_ai_tools/8.1_chatgpt.md)
   * [8.2 Claude 使用详解](08_ai_tools/8.2_claude.md)
   * [8.3 Gemini 使用详解](08_ai_tools/8.3_gemini.md)
-  * [8.4 其他实用 AI 工具](08_ai_tools/8.4_other_tools.md)
+  * [8.4 国产 AI 工具使用指南](08_ai_tools/8.4_chinese_tools.md)
+  * [8.5 其他实用 AI 工具](08_ai_tools/8.5_other_tools.md)
   * [本章小结](08_ai_tools/summary.md)
 
 * [第九章：提示词工程入门](09_prompt_basics/README.md)
