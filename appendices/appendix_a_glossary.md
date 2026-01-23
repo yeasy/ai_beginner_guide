@@ -24,10 +24,10 @@ AI 的一个子集，让计算机从数据中学习规律，而不是通过编�
 ## 模型与技术
 
 **Large Language Model (LLM) 大语言模型**
-经过海量文本训练的、参数巨大的深度学习模型，能理解和生成人类语言。
+经过海量文本训练的、参数巨大的深度学习模型，能理解和生成人类语言。详见[第六章](../06_llm/README.md)。
 
-**Transformer**
-目前的 AI 架构基石，基于注意力机制，特别是自注意力机制。
+**[Transformer](../06_llm/6.1_evolution.md)**
+目前的 AI 架构基石，基于注意力机制，特别是自注意力机制。详见[第六章第一节](../06_llm/6.1_evolution.md)。
 
 **Token (词元)**
 大模型处理文本的基本单位。对于英文通常是一个词或词根，中文通常是一个字或词。
@@ -50,13 +50,13 @@ AI 的一个子集，让计算机从数据中学习规律，而不是通过编�
 基于人类反馈的强化学习，用于调整模型，使其回答更符合人类偏好。
 
 **Prompt Engineering (提示词工程)**
-设计输入的提示词，以引导模型生成更准确、高质量输出的技术。
+设计输入的提示词，以引导模型生成更准确、高质量输出的技术。详见[第九章](../09_prompt_basics/README.md)和[第十章](../10_prompt_advanced/README.md)。
 
-**Chain of Thought (CoT) 思维链**
-一种提示技巧，要求模型展示推理步骤，提高逻辑题准确率。
+**[Chain of Thought (CoT) 思维链](../10_prompt_advanced/10.1_chain_of_thought.md)**
+一种提示技巧，要求模型展示推理步骤，提高逻辑题准确率。详见[第十章第一节](../10_prompt_advanced/10.1_chain_of_thought.md)。
 
 **RAG (Retrieval-Augmented Generation) 检索增强生成**
-结合外部知识库检索和生成模型，解决模型知识幻觉和时效性问题。
+结合外部知识库检索和生成模型，解决模型知识幻觉和时效性问题。详见[第七章](../07_multimodal_genai/7.4_fusion.md)。
 
 **Temperature (温度)**
 控制模型输出随机性的参数。温度越高，结果越有创意但越不可控；温度越低，结果越确定。
@@ -64,13 +64,19 @@ AI 的一个子集，让计算机从数据中学习规律，而不是通过编�
 ## 常见工具
 
 **ChatGPT**
-OpenAI 开发的聊天机器人，基于 GPT 模型。
+OpenAI 开发的聊天机器人，基于 GPT 模型。详见[第八章第一节](../08_ai_tools/8.1_chatgpt.md)。
 
 **Claude**
-Anthropic 开发的 AI，擅长长文本和写作。
+Anthropic 开发的 AI，擅长长文本和写作。详见[第八章第二节](../08_ai_tools/8.2_claude.md)。
 
 **Midjourney**
-著名的 AI 绘画工具，基于 Discord 使用。
+著名的 AI 绘画工具，基于 Discord 使用。详见[第七章](../07_multimodal_genai/7.2_image_generation.md)。
 
 **Stable Diffusion**
-开源的 AI 绘画模型。
+开源的 AI 绘画模型。详见[第七章](../07_multimodal_genai/7.2_image_generation.md)。
+
+**[智能体 (Agent)](../12_agents/README.md)**
+以大语言模型为大脑，具备感知、规划和行动能力的 AI 系统。详见[第十二章](../12_agents/README.md)。
+
+**[ReAct](../12_agents/12.2_planning_action.md)**
+智能体的经典思考模式，结合推理（Reasoning）和行动（Acting）。详见[第十二章第二节](../12_agents/12.2_planning_action.md)。

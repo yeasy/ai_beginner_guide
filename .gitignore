@@ -1,18 +1,35 @@
-# GitBook
+# GitBook / HonKit
 node_modules/
 _book/
 book.pdf
 book.epub
 book.mobi
 
-# System
+# System files
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# IDE
+# IDE and editors
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# Temp
+# Temporary files
 *.log
 *.tmp
+*.bak
+
+# Build artifacts
+*.orig
+
+# Package managers
+package-lock.json
+yarn.lock
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -76,11 +76,11 @@
 
 ## 在线阅读
 
-本书支持在线阅读，请访问：https://yeasy.gitbook.io/ai_beginner_guide/
+本书支持在线阅读，请访问：[GitBook](https://yeasy.gitbook.io/ai_beginner_guide/)
 
 ## 本地开发与预览
 
-本书支持使用 HonKit 进行本地开发和预览。
+本书支持使用 HonKit 进行本地阅读。
 
 1. **安装依赖**
    ```bash
@@ -91,7 +91,30 @@
    ```bash
    npm run serve
    ```
-   启动后，访问 `http://localhost:4000` 即可阅读本书。
+   启动后，访问 http://localhost:4000 即可阅读本书。
+
+3. **生成 PDF**（可选）
+   ```bash
+   npm run pdf
+   ```
+
+## 版本信息
+
+- **当前版本**：1.0.0
+- **最后更新**：2026年1月
+- **内容状态**：持续更新中
+
+## 参与贡献
+
+欢迎对本书内容提出意见和建议！你可以通过以下方式参与：
+
+- 在 GitHub 上提交 Issue 报告错误或提出建议
+- 提交 Pull Request 改进内容
+- 分享本书给更多需要的人
+
+## 许可证
+
+本书采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证。
 
 ---
 
