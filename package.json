@@ -1,0 +1,31 @@
+{
+    "name": "ai_beginner_guide",
+    "version": "1.0.0",
+    "description": "AI Beginner Guide for Novices",
+    "scripts": {
+        "init": "honkit init",
+        "build": "honkit build",
+        "serve": "honkit serve",
+        "start": "honkit serve",
+        "clean": "rimraf _book",
+        "pdf": "honkit pdf ./ ./ai_beginner_guide.pdf"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yeasy/ai_beginner_guide.git"
+    },
+    "author": "yeasy",
+    "license": "CC-BY-NC-SA-4.0",
+    "devDependencies": {
+        "gitbook-plugin-back-to-top-button": "^0.1.4",
+        "gitbook-plugin-chapter-fold": "^0.0.4",
+        "gitbook-plugin-code": "^0.1.0",
+        "gitbook-plugin-mermaid-gb3": "^2.1.0",
+        "gitbook-plugin-page-toc-button": "^0.1.1",
+        "gitbook-plugin-search-pro": "^2.0.2",
+        "gitbook-plugin-splitter": "^0.0.8",
+        "honkit": "^6.0.0",
+        "honkit-plugin-prism": "^2.5.4",
+        "rimraf": "^6.0.0"
+    }
+}

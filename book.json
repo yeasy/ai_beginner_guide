@@ -1,0 +1,29 @@
+{
+  "title": "普通人看的AI入门",
+  "author": "yeasy",
+  "language": "zh-hans",
+  "plugins": [
+    "mermaid-gb3",
+    "chapter-fold",
+    "back-to-top-button",
+    "code",
+    "splitter",
+    "page-toc-button",
+    "search-pro",
+    "prism",
+    "-lunr",
+    "-search",
+    "-highlight"
+  ],
+  "pluginsConfig": {
+    "page-toc-button": {
+      "maxTocDepth": 3,
+      "minTocSize": 2
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ]
+    }
+  }
+}

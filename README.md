@@ -74,31 +74,24 @@
 
 建议初学者按顺序阅读，有一定基础的读者可直接跳到感兴趣的章节。每章末尾设有"本章小结"，帮助巩固所学内容。
 
+## 在线阅读
+
+本书支持在线阅读，请访问：https://yeasy.gitbook.io/ai_beginner_guide/
+
 ## 本地开发与预览
 
 本书支持使用 HonKit 进行本地开发和预览。
 
-1. **安装 HonKit**
+1. **安装依赖**
    ```bash
-   npm install -g honkit
+   npm install
    ```
 
-2. **初始化（可选，如需安装插件）**
+2. **启动本地服务器**
    ```bash
-   honkit init
-   ```
-
-3. **启动本地服务器**
-   ```bash
-   honkit serve
+   npm run serve
    ```
    启动后，访问 `http://localhost:4000` 即可阅读本书。
-
-4. **构建静态网站**
-   ```bash
-   honkit build
-   ```
-   构建完成后，静态文件位于 `_book` 目录。
 
 ---
 
