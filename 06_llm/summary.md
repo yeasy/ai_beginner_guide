@@ -25,9 +25,9 @@
 - 参数高效微调：LoRA 等降低成本
 
 **主流模型**
-- 闭源：GPT-4、Claude 3.5、Gemini
-- 开源：LLaMA 3、Qwen 2.5、Mistral
-- 国内：文心一言、通义千问、Kimi
+- 闭源：GPT-5、Claude 4、Gemini 2.0
+- 开源：LLaMA 4、Qwen 2.5、Mistral
+- 国内：文心一言、通义千问、DeepSeek
 
 ### 关键术语
 
