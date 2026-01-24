@@ -72,11 +72,10 @@
   * [9.4 避免常见错误](09_prompt_basics/9.4_mistakes.md)
   * [本章小结](09_prompt_basics/summary.md)
 
-* [第十章：提示词工程进阶](10_prompt_advanced/README.md)
-  * [10.1 思维链（CoT）](10_prompt_advanced/10.1_chain_of_thought.md)
-  * [10.2 结构化输出](10_prompt_advanced/10.2_structured_output.md)
-  * [10.3 迭代优化](10_prompt_advanced/10.3_iterative.md)
-  * [10.4 高级技巧精选](10_prompt_advanced/10.4_advanced_techniques.md)
+* [第十章：复杂任务与深度推理](10_prompt_advanced/README.md)
+  * [10.1 思维链（CoT）：让 AI 学会思考](10_prompt_advanced/10.1_chain_of_thought.md)
+  * [10.2 迭代优化：像产品经理一样打磨](10_prompt_advanced/10.3_iterative.md)
+  * [10.3 高级技巧与策略](10_prompt_advanced/10.4_advanced_techniques.md)
   * [本章小结](10_prompt_advanced/summary.md)
 
 * [第十一章：AI 实战应用场景](11_scenarios/README.md)
