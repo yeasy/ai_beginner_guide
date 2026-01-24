@@ -49,7 +49,7 @@
   * [6.4 主流大模型](06_llm/6.4_major_llms.md)
   * [本章小结](06_llm/summary.md)
 
-* [第七章：从全模态到具身智能](07_multimodal_genai/README.md)
+* [第七章：从多模态到具身智能](07_multimodal_genai/README.md)
   * [7.1 多模态学习](07_multimodal_genai/7.1_multimodal.md)
   * [7.2 图像生成与扩散模型](07_multimodal_genai/7.2_image_generation.md)
   * [7.3 视频与音频生成](07_multimodal_genai/7.3_video_audio.md)
