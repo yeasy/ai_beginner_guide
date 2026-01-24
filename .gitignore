@@ -24,3 +24,5 @@ logs/
 # Temp
 tmp/
 temp/
+
+.agent
