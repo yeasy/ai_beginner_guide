@@ -20,6 +20,7 @@
         "gitbook-plugin-back-to-top-button": "^0.1.4",
         "gitbook-plugin-chapter-fold": "^0.0.4",
         "gitbook-plugin-code": "^0.1.0",
+        "gitbook-plugin-flexible-alerts": "^1.0.4",
         "gitbook-plugin-mermaid-gb3": "^2.1.0",
         "gitbook-plugin-page-toc-button": "^0.1.1",
         "gitbook-plugin-search-pro": "^2.0.2",

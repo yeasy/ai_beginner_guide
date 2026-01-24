@@ -13,7 +13,8 @@
     "prism",
     "-lunr",
     "-search",
-    "-highlight"
+    "-highlight",
+    "flexible-alerts"
   ],
   "pluginsConfig": {
     "page-toc-button": {
@@ -24,6 +25,29 @@
       "css": [
         "prismjs/themes/prism-solarizedlight.css"
       ]
+    },
+    "flexible-alerts": {
+      "style": "callout",
+      "note": {
+        "label": "说明",
+        "icon": "fa fa-info-circle",
+        "className": "info"
+      },
+      "tip": {
+        "label": "提示",
+        "icon": "fa fa-lightbulb-o",
+        "className": "tip"
+      },
+      "warning": {
+        "label": "注意",
+        "icon": "fa fa-exclamation-triangle",
+        "className": "warning"
+      },
+      "danger": {
+        "label": "警告",
+        "icon": "fa fa-ban",
+        "className": "danger"
+      }
     }
   }
 }
