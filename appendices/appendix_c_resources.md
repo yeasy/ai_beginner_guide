@@ -17,14 +17,16 @@
 
 ## 优质博客与专栏
 
-1. **OpenAI Blog** (openai.com/blog)
-   - 了解最前沿的技术动态。
-2. **Andrej Karpathy Blog** (karpathy.github.io)
-   - 深度与通俗并重，大神中的大神。
-3. **Lil'Log** (lilianweng.github.io)
-   - OpenAI 研究员 Lilian Weng 的博客，每一篇都是高质量综述。
-4. **宝玉的专栏** (baoyu.io)
-   - 高质量的中文 AI 技术翻译和解读。
+1. **[OpenAI Research](https://openai.com/research)**
+   - 了解 GPT 系列、Sora、o1 等最前沿模型的第一手发布地。
+2. **[Anthropic Research](https://www.anthropic.com/research)**
+   - 关注 AI 安全、可解释性（Mechanistic Interpretability）和 Claude 的最新进展。
+3. **[Google DeepMind](https://deepmind.google/discover/blog/)**
+   - 这里的文章偏学术和硬核，涵盖强化学习、AlphaFold 等基础科学突破。
+4. **[Meta AI](https://ai.meta.com/blog/)**
+   - 开源界的灯塔。关注 LLaMA 系列、PyTorch 框架的最新动态。
+5. **[Microsoft Research](https://www.microsoft.com/en-us/research/blog/)**
+   - 巨头的底蕴，涵盖从基础理论到应用落地的全方位研究。
 
 ## 在线课程
 
