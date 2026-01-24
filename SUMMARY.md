@@ -32,6 +32,7 @@
   * [4.2 监督学习](04_machine_learning/4.2_supervised.md)
   * [4.3 无监督学习](04_machine_learning/4.3_unsupervised.md)
   * [4.4 强化学习](04_machine_learning/4.4_reinforcement.md)
+  * [4.5 左右互搏术：自监督学习](04_machine_learning/4.5_self_supervised.md)
   * [本章小结](04_machine_learning/summary.md)
 
 * [第五章：深度学习揭秘](05_deep_learning/README.md)
