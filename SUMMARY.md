@@ -75,6 +75,7 @@
 
 * [第十章：复杂任务与深度推理](10_prompt_advanced/README.md)
   * [10.1 思维链（CoT）](10_prompt_advanced/10.1_chain_of_thought.md)
+  * [10.2 结构化输出](10_prompt_advanced/10.2_structured_output.md)
   * [10.3 迭代优化](10_prompt_advanced/10.3_iterative.md)
   * [10.4 高级提示词技巧](10_prompt_advanced/10.4_advanced_techniques.md)
   * [本章小结](10_prompt_advanced/summary.md)

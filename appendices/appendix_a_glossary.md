@@ -26,7 +26,7 @@ AI 的一个子集，让计算机从数据中学习规律，而不是通过编�
 **大语言模型（Large Language Model/LLM）**
 经过海量文本训练的、参数巨大的深度学习模型，能理解和生成人类语言。详见[第六章](../06_llm/README.md)。
 
-**[Transformer 架构]((../06_llm/6.1_evolution.md))**
+**[Transformer 架构](../06_llm/6.1_evolution.md)**
 目前的 AI 架构基石，基于注意力机制，特别是自注意力机制。详见[第六章第一节](../06_llm/6.1_evolution.md)。
 
 **Token（词元）**
