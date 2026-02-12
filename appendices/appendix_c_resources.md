@@ -20,7 +20,7 @@
 ## 优质博客与专栏
 
 1. **[OpenAI Research](https://openai.com/research)**
-   - 了解 GPT 系列、Sora、o1 等最前沿模型的第一手发布地。
+   - 了解 GPT 系列、Sora 等模型与研究进展的第一手发布地。
 2. **[Anthropic Research](https://www.anthropic.com/research)**
    - 关注 AI 安全、可解释性（Mechanistic Interpretability）和 Claude 的最新进展。
 3. **[Google DeepMind](https://deepmind.google/discover/blog/)**

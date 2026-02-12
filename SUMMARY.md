@@ -73,7 +73,7 @@
   * [9.4 常见错误清单](09_prompt_basics/9.4_mistakes.md)
   * [本章小结](09_prompt_basics/summary.md)
 
-* [第十章：复杂任务与深度推理](10_prompt_advanced/README.md)
+* [第十章：提示词工程进阶](10_prompt_advanced/README.md)
   * [10.1 思维链（CoT）](10_prompt_advanced/10.1_chain_of_thought.md)
   * [10.2 结构化输出](10_prompt_advanced/10.2_structured_output.md)
   * [10.3 迭代优化](10_prompt_advanced/10.3_iterative.md)

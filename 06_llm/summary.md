@@ -1,5 +1,3 @@
-# 第六章：大语言模型详解
-
 ## 本章小结
 
 本章深入解析了大语言模型的技术原理，从历史演进到核心机制，再到训练方法和主流模型。
@@ -25,9 +23,9 @@
 - 参数高效微调：LoRA 等降低成本
 
 **主流模型**
-- 闭源：GPT-5、Claude 4、Gemini 2.0
-- 开源：LLaMA 4、Qwen 2.5、Mistral
-- 国内：文心一言、通义千问、DeepSeek
+- 闭源：GPT、Claude、Gemini 等持续迭代
+- 开源：LLaMA、Qwen、Mistral 等生态活跃
+- 国内：文心、通义、DeepSeek、Kimi 等各有优势
 
 ### 关键术语
 

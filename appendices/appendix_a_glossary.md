@@ -56,7 +56,7 @@ AI 的一个子集，让计算机从数据中学习规律，而不是通过编�
 一种提示技巧，要求模型展示推理步骤，提高逻辑题准确率。详见[第十章第一节](../10_prompt_advanced/10.1_chain_of_thought.md)。
 
 **检索增强生成（Retrieval-Augmented Generation/RAG）**
-结合外部知识库检索和生成模型，解决模型知识幻觉和时效性问题。详见[第七章](../07_multimodal_genai/7.4_fusion.md)。
+结合外部知识库检索和生成模型，解决模型知识幻觉和时效性问题。详见[第十二章第三节](../12_agents/12.3_no_code_platform.md)。
 
 **温度（Temperature）**
 控制模型输出随机性的参数。温度越高，结果越有创意但越不可控；温度越低，结果越确定。
