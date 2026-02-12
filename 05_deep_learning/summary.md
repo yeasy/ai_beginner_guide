@@ -23,7 +23,7 @@
 **主流架构**
 - CNN：处理图像，使用卷积提取特征
 - RNN/LSTM：处理序列，具有记忆能力
-- [Transformer](../05_deep_learning/5.3_architectures.md)：基于注意力机制，当前最重要的架构
+- [Transformer](5.3_architectures.md)：基于注意力机制，当前最重要的架构
 
 **训练挑战**
 - 计算资源需求大
