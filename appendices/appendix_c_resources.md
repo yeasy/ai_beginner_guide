@@ -35,7 +35,7 @@
 1. **Coursera: Deep Learning Specialization**
    - 吴恩达老师的深度学习专项课程，系统性强。
 2. **Fast.ai**
-   - 杰瑞米·霍华德（Jeremy Howard）主讲，主打"自顶向下"的实战派教学。
+   - 杰瑞米·霍华德（Jeremy Howard）主讲，主打“自顶向下”的实战派教学。
 
 ## 社区
 
