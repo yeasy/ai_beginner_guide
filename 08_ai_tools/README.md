@@ -1,4 +1,4 @@
-# 第八章：主流 AI 工具使用指南
+# 第八章 主流 AI 工具使用指南
 
 > 手把手教你使用 ChatGPT、Claude、Gemini 等主流 AI 工具
 
