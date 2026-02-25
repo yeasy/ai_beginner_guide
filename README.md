@@ -110,6 +110,21 @@
 - 提交 Pull Request 改进内容
 - 分享本书给更多需要的人
 
+## 进阶阅读
+
+读完本书后，你可以根据兴趣方向选择以下进阶读物：
+
+| 书名 | 说明 |
+|------|------|
+| [《大模型提示词工程指南》](https://github.com/yeasy/prompt_engineering_guide) | 系统掌握与 AI 高效对话的提示词技术 |
+| [《大模型上下文工程权威指南》](https://github.com/yeasy/context_engineering_guide) | 从提示词工程进阶到上下文工程 |
+| [《Claude 技术指南》](https://github.com/yeasy/claude_guide) | 深入掌握 Claude 的核心能力与最佳实践 |
+| [《智能体 AI 权威指南》](https://github.com/yeasy/agentic_ai_guide) | 全面学习智能体架构、多智能体协作与工程实践 |
+| [《大模型安全权威指南》](https://github.com/yeasy/ai_security_guide) | 了解大语言模型安全攻防之道 |
+| [《OpenClaw 从入门到精通》](https://github.com/yeasy/openclaw_guide) | 开源智能体框架的实践入门 |
+
+> 💡 **推荐路径**：零基础学 AI → 提示词工程 → 上下文工程 / Claude 技术指南 → 智能体 AI → 大模型安全
+
 ## 许可证
 
 本书采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证。
@@ -117,3 +132,4 @@
 ---
 
 *让我们一起开启 AI 学习之旅，探索这个令人兴奋的技术新世界！*
+
