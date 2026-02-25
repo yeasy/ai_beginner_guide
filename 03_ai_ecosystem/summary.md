@@ -5,29 +5,29 @@
 ### 核心要点回顾
 
 **AI 技术栈的层次**
-- 硬件层：GPU、TPU、专用 AI 芯片提供算力基础
-- 基础设施层：CUDA、分布式训练、容器化支持高效运行
-- 框架层：PyTorch、TensorFlow、JAX 是主流选择
-- 模型层：基础模型和模型服务提供核心能力
+- 芯片层（GPU）：门槛最高，NVIDIA 一家独大
+- 基础设施层（云平台）：提供算力和服务
+- 框架层（PyTorch 等）：开发者用来“画图纸”的工具
+- 模型层（预训练模型）：相当于“预制板”，拿来即用
 - 应用层：面向用户的产品和服务
 
 **主流 AI 平台与服务**
-- 云厂商（AWS、Azure、GCP）提供全面的 AI 服务
-- OpenAI、Anthropic、Google 是大语言模型领域的主要玩家
-- 国内有文心一言、通义千问、Kimi 等选择
-- 专业领域有图像、音频、代码等垂直服务
+- 微软 Azure：企业集成与治理导向
+- Google Cloud：模型与数据产品一体化
+- AWS：多模型与基础设施深耕
+- 选择平台应按约束条件（合规、技术、组织）而非单纯“谁最强”
 
 **开源框架与工具**
-- PyTorch 是研究首选，TensorFlow 擅长生产部署
-- Hugging Face 是模型和数据集的“GitHub”
-- 开源大模型（LLaMA、Qwen 等）提供本地部署选择
-- LangChain、向量数据库等构成 AI 应用开发工具链
+- PyTorch 在研究和开源社区占比最高
+- TensorFlow 生态成熟，部署工具链完整
+- JAX 在前沿研究和高性能训练场景活跃
+- Hugging Face 是 AI 界的“GitHub”，大幅降低试错成本
+- AI 编程助手（Copilot、Cursor 等）正推动 Agentic Coding
 
 **云端 AI 与边缘 AI**
-- 云端：算力强、模型大，但依赖网络、有延迟和隐私顾虑
+- 云端：算力强、模型大，但依赖网络、有隐私顾虑
 - 边缘：低延迟、保护隐私，但受设备限制
-- 混合架构结合两者优势
-- 端侧 AI 能力持续增强是主要趋势
+- 未来趋势是混合架构，日常简单任务在端侧，复杂任务上云
 
 ### 关键术语
 
@@ -35,24 +35,11 @@
 |------|------|
 | GPU | 图形处理器，深度学习的主要计算硬件 |
 | TPU | Google 的张量处理单元，专用 AI 芯片 |
-| CUDA | NVIDIA 的并行计算平台 |
 | PyTorch | Meta 开发的深度学习框架 |
 | TensorFlow | Google 开发的深度学习框架 |
 | Hugging Face | AI 模型和数据集的共享平台 |
 | 边缘 AI | 在终端设备本地运行的 AI |
-| 模型压缩 | 减小模型大小以适配边缘部署的技术 |
-
-### 工具速查表
-
-| 用途 | 推荐工具 |
-|------|----------|
-| 深度学习框架 | PyTorch（研究）、TensorFlow（部署） |
-| 预训练模型 | Hugging Face Transformers |
-| 实验跟踪 | Weights & Biases、MLflow |
-| 本地大模型 | Ollama、LM Studio |
-| LLM 应用开发 | LangChain、LlamaIndex |
-| 向量数据库 | Chroma、Pinecone |
-| 快速演示 | Gradio、Streamlit |
+| MaaS | 模型即服务，按需调用云上模型的模式 |
 
 ### 延伸思考
 

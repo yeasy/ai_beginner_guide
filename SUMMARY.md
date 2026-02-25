@@ -5,24 +5,24 @@
 ## 第一部分：AI 基础入门
 
 * [第一章：走进人工智能世界](01_ai_intro/README.md)
-  * [1.1 什么是人工智能](01_ai_intro/1.1_what_is_ai.md)
-  * [1.2 AI 的发展历程](01_ai_intro/1.2_ai_history.md)
-  * [1.3 AI 的主要类型与分类](01_ai_intro/1.3_ai_types.md)
-  * [1.4 AI 在生活中的应用](01_ai_intro/1.4_ai_applications.md)
+  * [1.1 那个永远认不出猫的超级计算机](01_ai_intro/1.1_what_is_ai.md)
+  * [1.2 达特茅斯的夏天与漫长的寒冬](01_ai_intro/1.2_ai_history.md)
+  * [1.3 为什么贾维斯还不够聪明](01_ai_intro/1.3_ai_types.md)
+  * [1.4 消失的收银员与看不见的算法](01_ai_intro/1.4_ai_applications.md)
   * [本章小结](01_ai_intro/summary.md)
 
 * [第二章：AI 核心概念速览](02_core_concepts/README.md)
-  * [2.1 人工智能、机器学习与深度学习](02_core_concepts/2.1_ai_ml_dl.md)
-  * [2.2 数据：AI 的燃料](02_core_concepts/2.2_data.md)
-  * [2.3 算法与模型基础](02_core_concepts/2.3_algorithms.md)
-  * [2.4 训练、推理与评估](02_core_concepts/2.4_training.md)
+  * [2.1 智能的俄罗斯套娃](02_core_concepts/2.1_ai_ml_dl.md)
+  * [2.2 作为燃料的数据](02_core_concepts/2.2_data.md)
+  * [2.3 算法：就是一张番茄炒蛋的菜谱](02_core_concepts/2.3_algorithms.md)
+  * [2.4 怎么训练？就像反复做题并订正](02_core_concepts/2.4_training.md)
   * [本章小结](02_core_concepts/summary.md)
 
 * [第三章：AI 技术生态与工具全景](03_ai_ecosystem/README.md)
-  * [3.1 AI 技术栈概览](03_ai_ecosystem/3.1_tech_stack.md)
-  * [3.2 主流 AI 平台与服务](03_ai_ecosystem/3.2_platforms.md)
-  * [3.3 开源框架与工具](03_ai_ecosystem/3.3_frameworks.md)
-  * [3.4 云端 AI 与边缘 AI](03_ai_ecosystem/3.4_cloud_edge.md)
+  * [3.1 盖房子的艺术](03_ai_ecosystem/3.1_tech_stack.md)
+  * [3.2 选云厂商就像选厨房](03_ai_ecosystem/3.2_platforms.md)
+  * [3.3 开源的盛宴](03_ai_ecosystem/3.3_frameworks.md)
+  * [3.4 中央厨房与自热火锅](03_ai_ecosystem/3.4_cloud_edge.md)
   * [本章小结](03_ai_ecosystem/summary.md)
 
 ## 第二部分：核心技术解析
@@ -74,7 +74,7 @@
   * [本章小结](09_prompt_basics/summary.md)
 
 * [第十章：提示词工程进阶](10_prompt_advanced/README.md)
-  * [10.1 思维链（CoT）](10_prompt_advanced/10.1_chain_of_thought.md)
+  * [10.1 思维链](10_prompt_advanced/10.1_chain_of_thought.md)
   * [10.2 结构化输出](10_prompt_advanced/10.2_structured_output.md)
   * [10.3 迭代优化](10_prompt_advanced/10.3_iterative.md)
   * [10.4 高级提示词技巧](10_prompt_advanced/10.4_advanced_techniques.md)
@@ -90,8 +90,8 @@
 ## 第四部分：进阶与展望
 
 * [第十二章：AI 智能体与自动化](12_agents/README.md)
-  * [12.1 什么是智能体](12_agents/12.1_what_is_agent.md)
-  * [12.2 智能体是如何工作的](12_agents/12.2_planning_action.md)
+  * [12.1 什么是智能体？](12_agents/12.1_what_is_agent.md)
+  * [12.2 智能体是如何工作的？](12_agents/12.2_planning_action.md)
   * [12.3 低代码智能体开发平台](12_agents/12.3_no_code_platform.md)
   * [本章小结](12_agents/summary.md)
 
