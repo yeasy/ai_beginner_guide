@@ -102,14 +102,9 @@
   * [13.4 迈向 AGI](13_ethics_future/13.4_outlook.md)
   * [本章小结](13_ethics_future/summary.md)
 
-* [第十四章 AI 学习路径与未来展望](14_roadmap/README.md)
-  * [14.1 小白进阶路线图](14_roadmap/14.1_learning_path.md)
-  * [14.2 优质学习资源推荐](14_roadmap/14.2_resources.md)
-  * [14.3 终身学习的心法](14_roadmap/14.3_mindset.md)
-  * [本章小结](14_roadmap/summary.md)
-
 ## 附录
 
 * [附录 A：术语表](appendices/appendix_a_glossary.md)
 * [附录 B：常用 AI 工具与资源汇总](appendices/appendix_b_tools.md)
 * [附录 C：推荐阅读与学习资源](appendices/appendix_c_resources.md)
+* [附录 D：AI 学习路线图](appendices/appendix_d_learning_path.md)

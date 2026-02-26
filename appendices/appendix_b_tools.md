@@ -14,7 +14,7 @@
 | **Kimi** | https://kimi.ai | 国产长文本 | 读长篇中文研报、财报 |
 | **秘塔搜索** | https://metaso.cn | AI 搜索 | 精准搜索信息、学术搜索 |
 
-## 图像与设计
+## 图像与影音
 
 | 工具名称 | 网址 | 特点 | 适用场景 |
 | :--- | :--- | :--- | :--- |
@@ -22,6 +22,7 @@
 | **Stable Diffusion** | https://stability.ai | 开源可控 | 本地部署、精确控制画面 |
 | **可灵 (Kling)** | https://klingai.kuaishou.com | 国产视频/图 | 生成动图、短视频 |
 | **即梦 (Jimeng)** | https://jimeng.jianying.com | 字节出品 | 电商图、设计素材 |
+| **Suno / Udio** | https://suno.com | 音乐生成 | 输入歌词直接生成带人声的歌曲 |
 
 ## 效率与办公
 
