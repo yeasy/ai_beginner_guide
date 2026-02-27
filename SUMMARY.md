@@ -47,6 +47,7 @@
   * [6.2 大模型原理](06_llm/6.2_how_llm_works.md)
   * [6.3 预训练与微调](06_llm/6.3_pretrain_finetune.md)
   * [6.4 主流大模型](06_llm/6.4_major_llms.md)
+  * [6.5 大模型的部署与推理](06_llm/6.5_deployment.md)
   * [本章小结](06_llm/summary.md)
 
 * [第七章 从多模态到具身智能](07_multimodal_genai/README.md)
