@@ -36,7 +36,7 @@
 - **[Andrej Karpathy](https://karpathy.ai/)**：
   - 前 OpenAI 研究负责人（后回归个人研究/教育方向），他的 "[Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY)" 视频是硬核党的必修课。
 - **[Fast.ai](https://www.fast.ai/)**：
-  - 杰瑞米·霍华德（Jeremy Howard）主讲，主打"自顶向下"的实战派教学。
+  - 杰瑞米·霍华德（Jeremy Howard）主讲，主打“自顶向下”的实战派教学。
 - **《动手学深度学习》（李沐）**：
   - 偏向代码实战，适合想亲手敲代码复现经典模型的学习者。
 
@@ -59,4 +59,4 @@
 - **[Product Hunt](https://www.producthunt.com/topics/artificial-intelligence)**：看看每天冒出来的 AI 新产品，寻找灵感。
 
 **避坑提醒**：
-不要购买那些"三天速成 AI 大师"的付费课，尤其是那些贩卖焦虑的。真正好的资源大多是免费的（比如官方文档）。
+不要购买那些“三天速成 AI 大师”的付费课，尤其是那些贩卖焦虑的。真正好的资源大多是免费的（比如官方文档）。
