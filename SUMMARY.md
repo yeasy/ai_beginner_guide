@@ -12,7 +12,7 @@
   * [本章小结](01_ai_intro/summary.md)
 
 * [第二章 AI 核心概念速览](02_core_concepts/README.md)
-  * [2.1 智能的俄罗斯套娃](02_core_concepts/2.1_ai_ml_dl.md)
+  * [2.1 智能的套娃](02_core_concepts/2.1_ai_ml_dl.md)
   * [2.2 作为燃料的数据](02_core_concepts/2.2_data.md)
   * [2.3 算法：就是一张番茄炒蛋的菜谱](02_core_concepts/2.3_algorithms.md)
   * [2.4 怎么训练？就像反复做题并订正](02_core_concepts/2.4_training.md)

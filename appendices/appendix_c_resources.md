@@ -59,4 +59,5 @@
 - **[Product Hunt](https://www.producthunt.com/topics/artificial-intelligence)**：看看每天冒出来的 AI 新产品，寻找灵感。
 
 **避坑提醒**：
+
 不要购买那些“三天速成 AI 大师”的付费课，尤其是那些贩卖焦虑的。真正好的资源大多是免费的（比如官方文档）。
