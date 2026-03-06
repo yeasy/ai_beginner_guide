@@ -34,7 +34,7 @@
 - **[李宏毅（台大）](https://speech.ee.ntu.edu.tw/~hylee/ml/)**：
   - 他的机器学习课程风趣幽默，用宝可梦讲 AI，非常适合华语初学者。[YouTube 频道](https://www.youtube.com/@HungyiLeeNTU)。
 - **[Andrej Karpathy](https://karpathy.ai/)**：
-  - 前 OpenAI 研究负责人（后回归个人研究/教育方向），他的 "[Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY)" 视频是硬核党的必修课。
+  - 前 OpenAI 研究负责人（后回归个人研究/教育方向），他的 “[Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY)” 视频是硬核党的必修课。
 - **[Fast.ai](https://www.fast.ai/)**：
   - 杰瑞米·霍华德（Jeremy Howard）主讲，主打“自顶向下”的实战派教学。
 - **《动手学深度学习》（李沐）**：
