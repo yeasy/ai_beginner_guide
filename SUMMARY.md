@@ -32,6 +32,7 @@
   * [4.2 监督学习](04_machine_learning/4.2_supervised.md)
   * [4.3 无监督学习](04_machine_learning/4.3_unsupervised.md)
   * [4.4 强化学习](04_machine_learning/4.4_reinforcement.md)
+  * [4.4b 强化学习的真实场景与挑战](04_machine_learning/4.4b_rl_applications.md)
   * [4.5 自监督学习](04_machine_learning/4.5_self_supervised.md)
   * [本章小结](04_machine_learning/summary.md)
 
@@ -40,22 +41,53 @@
   * [5.2 深度学习训练](05_deep_learning/5.2_techniques.md)
   * [5.3 深度学习架构](05_deep_learning/5.3_architectures.md)
   * [5.4 深度学习的局限性](05_deep_learning/5.4_challenges.md)
+  * [5.5 数学直觉：理解神经网络的灵魂（可选）](05_deep_learning/5.5_math_intuition.md)
   * [本章小结](05_deep_learning/summary.md)
 
 * [第六章 大语言模型详解](06_llm/README.md)
   * [6.1 语言模型演变](06_llm/6.1_evolution.md)
   * [6.2 大模型原理](06_llm/6.2_how_llm_works.md)
+  * [6.2b Transformer 的注意力机制详解](06_llm/6.2b_transformer_attention.md)
   * [6.3 预训练与微调](06_llm/6.3_pretrain_finetune.md)
   * [6.4 主流大模型](06_llm/6.4_major_llms.md)
   * [6.5 大模型的部署与推理](06_llm/6.5_deployment.md)
   * [本章小结](06_llm/summary.md)
 
-* [第七章 从多模态到具身智能](07_multimodal_genai/README.md)
+* [第6.5章 推理模型与推理计算](06b_reasoning_models/README.md)
+  * [6.5.1 两种思维方式：System 1 vs System 2](06b_reasoning_models/6.5.1_system1_vs_system2.md)
+  * [6.5.2 推理模型的工作原理](06b_reasoning_models/6.5.2_how_reasoning_works.md)
+  * [6.5.3 推理计算（Inference-Time Compute）](06b_reasoning_models/6.5.3_inference_compute.md)
+  * [6.5.4 主流推理模型深度对比](06b_reasoning_models/6.5.4_major_reasoning_models.md)
+  * [6.5.5 推理模型的局限与成本](06b_reasoning_models/6.5.5_limitations_costs.md)
+  * [本章小结](06b_reasoning_models/summary.md)
+
+* [第6.6章 超越 Transformer：SSM 混合架构](06c_beyond_transformer/README.md)
+  * [6.6.1 Transformer 的二次复杂度问题](06c_beyond_transformer/6.6.1_transformer_limitation.md)
+  * [6.6.2 状态空间模型（SSM）入门](06c_beyond_transformer/6.6.2_ssm_basics.md)
+  * [6.6.3 混合架构的未来](06c_beyond_transformer/6.6.3_hybrid_architectures.md)
+  * [6.6.4 长上下文与持久记忆](06c_beyond_transformer/6.6.4_long_context.md)
+  * [本章小结](06c_beyond_transformer/summary.md)
+
+* [第6.7章 DeepSeek 深度解析](06d_deepseek_analysis/README.md)
+  * [6.7.1 DeepSeek 是什么：从小创业到独角兽](06d_deepseek_analysis/6.7.1_deepseek_story.md)
+  * [6.7.2 技术创新：MLA 和 MoE](06d_deepseek_analysis/6.7.2_mla_moe_innovation.md)
+  * [6.7.3 DeepSeek-R1：推理模型的黑马](06d_deepseek_analysis/6.7.3_deepseek_r1.md)
+  * [本章小结](06d_deepseek_analysis/summary.md)
+
+* [第七章 多模态与生成式 AI](07_multimodal_genai/README.md)
   * [7.1 多模态学习](07_multimodal_genai/7.1_multimodal.md)
-  * [7.2 图像生成与扩散模型](07_multimodal_genai/7.2_image_generation.md)
+  * [7.2 图像生成技术](07_multimodal_genai/7.2_image_generation.md)
   * [7.3 视频与音频生成](07_multimodal_genai/7.3_video_audio.md)
-  * [7.4 原生全模态与具身智能](07_multimodal_genai/7.4_fusion.md)
+  * [7.4 多模态融合与应用](07_multimodal_genai/7.4_fusion.md)
   * [本章小结](07_multimodal_genai/summary.md)
+
+* [第7.5章 上下文工程：从提示词到知识库](07_context_engineering/README.md)
+  * [7.5.1 上下文工程：AI 时代的基本素养](07_context_engineering/7.5.1_context_engineering_intro.md)
+  * [本章小结](07_context_engineering/summary.md)
+
+* [第7.6章 多智能体协作系统：从单个 AI 到 AI 团队](08_multi_agent/README.md)
+  * [7.6.1 多智能体协作系统：从独奏到交响乐](08_multi_agent/7.6.1_multi_agent_systems.md)
+  * [本章小结](08_multi_agent/summary.md)
 
 ## 第三部分：实战应用技巧
 
@@ -72,6 +104,7 @@
   * [9.2 提示词黄金三原则](09_prompt_basics/9.2_principles.md)
   * [9.3 常用提示词模式](09_prompt_basics/9.3_patterns.md)
   * [9.4 常见错误清单](09_prompt_basics/9.4_mistakes.md)
+  * [9.5 提示词工程的失效边界](09_prompt_basics/9.5_when_prompting_fails.md)
   * [本章小结](09_prompt_basics/summary.md)
 
 * [第十章 提示词工程进阶](10_prompt_advanced/README.md)
@@ -102,6 +135,11 @@
   * [13.3 AI 对就业的影响](13_ethics_future/13.3_impact.md)
   * [13.4 迈向 AGI](13_ethics_future/13.4_outlook.md)
   * [本章小结](13_ethics_future/summary.md)
+
+* [第十四章 AI 硬件与量子计算入门](14_ai_hardware_quantum/README.md)
+  * [14.1 AI 芯片基础：GPU、TPU、NPU](14_ai_hardware_quantum/14.1_ai_chips.md)
+  * [14.2 量子计算与 AI 的未来](14_ai_hardware_quantum/14.2_quantum_computing.md)
+  * [本章小结](14_ai_hardware_quantum/summary.md)
 
 ## 附录
 
