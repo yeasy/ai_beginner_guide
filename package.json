@@ -25,8 +25,8 @@
         "gitbook-plugin-page-toc-button": "^0.1.1",
         "gitbook-plugin-search-pro": "^2.0.2",
         "gitbook-plugin-splitter": "^0.0.8",
-        "honkit": "^6.0.0",
+        "honkit": "^6.1.6",
         "honkit-plugin-prism": "^2.5.4",
-        "rimraf": "^6.0.0"
+        "rimraf": "^6.1.3"
     }
 }
