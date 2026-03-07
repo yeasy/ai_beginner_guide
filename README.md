@@ -1,8 +1,16 @@
-# 零基础学AI
+<div align="center">
+
+# 零基础学 AI
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![GitHub stars](https://img.shields.io/github/stars/yeasy/ai_beginner_guide?style=social)](https://github.com/yeasy/ai_beginner_guide)
+[![Online Reading](https://img.shields.io/badge/在线阅读-GitBook-brightgreen)](https://yeasy.gitbook.io/ai_beginner_guide)
 
 > 普通人看的 AI 入门。从零开始，掌握人工智能的核心知识与实践技能
 
-![封面](./cover.jpg)
+<img src="cover.jpg" width="300" alt="零基础学 AI 封面">
+
+</div>
 
 ---
 
