@@ -46,7 +46,7 @@ jobs:
 
       - name: Create Release with PDF
         if: startsWith(github.ref, 'refs/tags/')
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           generate_release_notes: true
           files: ai_beginner_guide-${{ steps.tag.outputs.TAG_NAME }}.pdf
