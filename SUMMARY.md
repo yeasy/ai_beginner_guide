@@ -56,7 +56,7 @@
 * [第七章 推理模型与推理计算](07_reasoning_models/README.md)
   * [7.1 两种思维方式：System 1 vs System 2](07_reasoning_models/7.1_system1_vs_system2.md)
   * [7.2 推理模型的工作原理](07_reasoning_models/7.2_how_reasoning_works.md)
-  * [7.3 推理计算：新的AI范式](07_reasoning_models/7.3_inference_compute.md)
+  * [7.3 推理计算：新的 AI 范式](07_reasoning_models/7.3_inference_compute.md)
   * [7.4 主流推理模型深度对比](07_reasoning_models/7.4_major_reasoning_models.md)
   * [7.5 推理模型的局限与成本](07_reasoning_models/7.5_limitations_costs.md)
   * [本章小结](07_reasoning_models/summary.md)
