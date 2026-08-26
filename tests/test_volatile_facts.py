@@ -74,10 +74,16 @@ class VolatileFactTtlTests(unittest.TestCase):
 class VolatileFactContentTests(unittest.TestCase):
     def test_ledger_records_current_official_claude_status(self) -> None:
         text = LEDGER.read_text(encoding="utf-8")
+        # Assert the SHAPE of the header, not the literal dates. Pinning the dates
+        # here means every legitimate re-verification — the one thing the TTL
+        # exists to force — also breaks this test. The date arithmetic is already
+        # enforced by check_volatile_facts() against the ledger's own verified_at.
+        self.assertRegex(
+            text,
+            r"`verified_at`: \d{4}-\d{2}-\d{2} · "
+            r"`expires_at`: \d{4}-\d{2}-\d{2} · `ttl_days`: 30",
+        )
         for required in (
-            "`verified_at`: 2026-07-28",
-            "`expires_at`: 2026-08-27",
-            "`ttl_days`: 30",
             "Fable 5 已于 2026-07-01 恢复全球访问",
             "Mythos 5 仍为受限可用",
             "Claude Sonnet 5",
