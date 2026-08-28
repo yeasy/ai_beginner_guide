@@ -92,7 +92,7 @@ class VolatileFactContentTests(unittest.TestCase):
             "Opus 4.8 等 4.x 型号已移入 legacy（旧版）区",
             "https://www.anthropic.com/news/redeploying-fable-5",
             "https://www.anthropic.com/news/claude-sonnet-5",
-            "https://platform.claude.com/docs/en/about-claude/models/overview",
+            "https://platform.claude.com/docs/en/models/overview",
         ):
             self.assertIn(required, text)
 

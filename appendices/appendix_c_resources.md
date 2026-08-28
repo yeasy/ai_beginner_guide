@@ -8,7 +8,7 @@
 
 这通常是第一手、相对最准确的资料。
 
-- **[OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)**：官方的提示词教程，含金量极高。
+- **[OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering)**：官方的提示词教程，含金量极高。
 - **[Claude Cookbooks](https://github.com/anthropics/claude-cookbooks)**：Claude 官方的代码示例合集（Jupyter Notebook 形式），覆盖工具调用、RAG、多模态、提示词缓存等常见做法。
 - **[Hugging Face LLM Course](https://huggingface.co/learn/llm-course)**：开源界的 AI 圣经，免费的 LLM 课程（原 NLP Course，已扩展更名为 LLM Course）。
 
