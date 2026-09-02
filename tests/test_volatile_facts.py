@@ -88,10 +88,12 @@ class VolatileFactContentTests(unittest.TestCase):
             "Mythos 5 仍为受限可用",
             "Claude Sonnet 5",
             "`claude-sonnet-5`",
-            "Opus 5、Sonnet 5 与 Haiku 4.5",
-            "Opus 4.8 等 4.x 型号已移入 legacy（旧版）区",
+            "Claude Fable 5.1 于 2026-09-01 发布",
+            "Fable 5.1、Opus 5、Sonnet 5 与 Haiku 4.5",
+            "Fable 5 已与 Opus 4.8 等 4.x 型号一同移入 legacy（旧版）区",
             "https://www.anthropic.com/news/redeploying-fable-5",
             "https://www.anthropic.com/news/claude-sonnet-5",
+            "https://www.anthropic.com/claude-fable-and-mythos-5-1",
             "https://platform.claude.com/docs/en/models/overview",
         ):
             self.assertIn(required, text)

@@ -6,7 +6,7 @@
 
 2024 年底，一个重大转变正在 AI 领域发生。传统的大语言模型都在追求“快速反应”——输入提示词，瞬间得到答案。但现在，一个新的思路正在成为主流：**给 AI 充足的时间来思考**。
 
-这就是“推理模型”（Reasoning Models）的核心理念。OpenAI 从 o 系列演进到 GPT-5 及其迭代版本；Anthropic 从 Extended Thinking 演进到 Claude Fable 5 与 **Claude Sonnet 5** 等新一代型号所采用的 Adaptive Thinking；DeepSeek-R1 则展示了开放权重推理路线。版本与可用性以[快变事实核验表](../appendices/appendix_f_volatile_facts.md)为准。
+这就是“推理模型”（Reasoning Models）的核心理念。OpenAI 从 o 系列演进到 GPT-5 及其迭代版本；Anthropic 从 Extended Thinking 演进到 Claude Fable 5.1 与 **Claude Sonnet 5** 等新一代型号所采用的 Adaptive Thinking；DeepSeek-R1 则展示了开放权重推理路线。版本与可用性以[快变事实核验表](../appendices/appendix_f_volatile_facts.md)为准。
 
 ## 本章内容
 

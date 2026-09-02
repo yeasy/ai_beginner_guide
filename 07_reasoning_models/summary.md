@@ -23,7 +23,7 @@
 
 4. **四大推理模型对比**
    - **OpenAI 推理路线（主线已到 GPT-5.6 系列，GPT-5.5 仍可用）**：逻辑和代码能力强，支持推理和基础模型两条路线
-   - **Claude thinking 路线**：Claude Fable 5、Opus 5 与 **Claude Sonnet 5** 使用 Adaptive Thinking，Haiku 4.5 使用 Extended Thinking；Fable 5 广泛可用，Mythos 5 为受限可用
+   - **Claude thinking 路线**：Claude Fable 5.1、Opus 5 与 **Claude Sonnet 5** 使用 Adaptive Thinking，Haiku 4.5 使用 Extended Thinking；Fable 5.1 广泛可用，Mythos 5.1 为受限可用
    - **DeepSeek-R1（2025-01-20）**：经济的工程师，成本最低，可本地部署
    - **Gemini（Deep Research 模式）**：知识的聚合家，擅长研究型信息整合
 
@@ -44,7 +44,7 @@
 | 推理计算 | 在用户提问时分配计算资源进行推理 |
 | 推理 token（思考 token） | 用于思考而非最终输出的 token，按输出 token 计费 |
 | 思考预算（Thinking Budget） | 控制模型在回答前最多可用多少推理 token |
-| Adaptive Thinking | Claude Fable 5（常开）、Claude Sonnet 5 等新一代型号使用的推理模式；具体支持矩阵以快变事实核验表为准 |
+| Adaptive Thinking | Claude Fable 5.1（常开）、Claude Sonnet 5 等新一代型号使用的推理模式；具体支持矩阵以快变事实核验表为准 |
 | 知识蒸馏 | 将大模型的能力压缩到小模型中 |
 | 多路径探索 | 推理过程中尝试多个方法并选择最优 |
 
