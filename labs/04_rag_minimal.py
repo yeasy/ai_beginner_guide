@@ -9,7 +9,9 @@ complete loop before replacing each part with embeddings, a vector database,
 and a real LLM API.
 
 Pipeline:
-1. Retrieve: rank local document chunks by TF-IDF cosine similarity.
+1. Retrieve: rank local document chunks by TF-IDF cosine similarity, plus a small
+   exact-keyword bonus (see `retrieve`) that keeps ranking deterministic on this
+   tiny corpus. The bonus is a teaching crutch, not part of TF-IDF.
 2. Augment: format the top chunks into a bounded context block.
 3. Generate: produce an extractive answer from the retrieved context.
 """
@@ -94,6 +96,8 @@ def retrieve(query: str, k: int = 3, documents: list[str] | None = None) -> list
     scored = []
     for doc in corpus:
         score = cosine_similarity(query_vector, vectorize(doc, idf))
+        # Teaching crutch, not part of TF-IDF: on a 3-document corpus the cosine
+        # scores are too close to rank stably, so an exact-keyword hit gets +0.25.
         score += 0.25 * len(explicit_terms & set(tokenize(doc)))
         scored.append((score, doc))
 
