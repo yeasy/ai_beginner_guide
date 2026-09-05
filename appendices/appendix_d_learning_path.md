@@ -83,7 +83,7 @@
 **耗时**：1-3 个月
 **内容**：
 1. **提示词进阶**：掌握 [思维链（CoT）](../12_prompt_advanced/12.1_chain_of_thought.md)、指定输出格式（见第 11 章）、迭代优化等高级技巧。
-2. **知识库构建**：学会使用 [检索增强生成（RAG）工具](../14_agents/14.3_no_code_platform.md)（可理解为“先查你给的资料，再回答”），让 AI 基于你的私有数据回答问题。
+2. **知识库构建**：学会用[低代码平台](../14_agents/14.3_no_code_platform.md)搭一个知识库（背后的检索增强生成 RAG 原理见 [12.5](../12_prompt_advanced/12.5_context_engineering.md)）（可理解为“先查你给的资料，再回答”），让 AI 基于你的私有数据回答问题。
 3. **工作流自动化**：开始玩 Coze、Zapier，把 AI 串联到你的日常工作流里（例如：自动抓取新闻 -> AI 总结 -> 发送到手机）。
 4. **原理理解**：阅读本书的前半部分，理解什么是 [Transformer](../05_deep_learning/5.3_architectures.md)，什么是 Token，什么是过拟合。
 
