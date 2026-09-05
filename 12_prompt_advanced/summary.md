@@ -100,7 +100,7 @@ AI 到底能帮我们在生活和工作中解决哪些具体问题？
    - 这些信息是否存在于某个文档/系统中？
 
 2. **选择工具**
-   - RAG：Pinecone, Weaviate, Milvus（免费开源）
+   - RAG：Milvus、Weaviate（开源可自建）；Pinecone（闭源托管，有免费层）
    - MCP：Claude Desktop, OpenAI Platform
    - 企业级：LangChain, LlamaIndex 框架
 
