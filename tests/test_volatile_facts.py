@@ -89,8 +89,11 @@ class VolatileFactContentTests(unittest.TestCase):
             "Claude Sonnet 5",
             "`claude-sonnet-5`",
             "Claude Fable 5.1 于 2026-09-01 发布",
-            "Fable 5.1、Opus 5、Sonnet 5 与 Haiku 4.5",
-            "Fable 5 已与 Opus 4.8 等 4.x 型号一同移入 legacy（旧版）区",
+            "Fable 5.1、Opus 5.5、Sonnet 5.5 与 Haiku 4.5",
+            "`claude-opus-5-5`",
+            "`claude-sonnet-5-5`",
+            "已与 Opus 4.8 等 4.x 型号一同移入 legacy（旧版）区",
+            "https://platform.claude.com/docs/en/release-notes/overview",
             "https://www.anthropic.com/news/redeploying-fable-5",
             "https://www.anthropic.com/news/claude-sonnet-5",
             "https://www.anthropic.com/claude-fable-and-mythos-5-1",
@@ -98,11 +101,11 @@ class VolatileFactContentTests(unittest.TestCase):
         ):
             self.assertIn(required, text)
 
-    def test_affected_chapters_point_to_ledger_and_include_sonnet_5(self) -> None:
+    def test_affected_chapters_point_to_ledger_and_include_sonnet_5_5(self) -> None:
         for chapter in AFFECTED_CHAPTERS:
             with self.subTest(chapter=chapter.relative_to(ROOT)):
                 text = chapter.read_text(encoding="utf-8")
-                self.assertIn("Claude Sonnet 5", text)
+                self.assertIn("Claude Sonnet 5.5", text)
                 self.assertIn("appendix_f_volatile_facts.md", text)
 
     def test_no_stale_pause_status_is_copied_outside_ledger(self) -> None:
