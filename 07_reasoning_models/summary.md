@@ -22,8 +22,8 @@
    - 不同问题可以根据复杂度动态分配推理资源
 
 4. **四大推理模型对比**
-   - **OpenAI 推理路线（当前首推 GPT-6 Astra、GPT-6.1 Sol 与 GPT-6 Luna，GPT-5.6 系列与 GPT-5.5 仍可用）**：逻辑和代码能力强，支持推理和基础模型两条路线
-   - **Claude thinking 路线**：Claude Fable 5.1、Opus 5.5 与 **Claude Sonnet 5.5** 使用 Adaptive Thinking，Haiku 4.5 使用 Extended Thinking；Fable 5.1 广泛可用，Mythos 5.1 为受限可用
+   - **OpenAI 推理路线（当前首推 GPT-6 Astra、GPT-6.1 Sol、GPT-6.1 Terra 与 GPT-6 Luna，GPT-5.6 系列与 GPT-5.5 仍可用）**：逻辑和代码能力强，支持推理和基础模型两条路线
+   - **Claude thinking 路线**：Claude Fable 5.1、Opus 5.5、**Claude Sonnet 5.5** 与 Haiku 5.5 都使用 Adaptive Thinking；Fable 5.1 广泛可用，Mythos 5.1 为受限可用
    - **DeepSeek-R1（2025-01-20）**：经济的工程师，成本最低，可本地部署
    - **Gemini（Deep Research 模式）**：知识的聚合家，擅长研究型信息整合
 
