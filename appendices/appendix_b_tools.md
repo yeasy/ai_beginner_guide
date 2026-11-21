@@ -1,6 +1,6 @@
 # 附录 B：常用 AI 工具与资源汇总
 
-> 只要这一个清单，搞定所有 AI 需求。
+> 一份清单，满足所有 AI 需求。
 
 ---
 
@@ -37,7 +37,7 @@
 
 | 工具名称 | 网址 | 特点 | 适用场景 |
 | :--- | :--- | :--- | :--- |
-| **GitHub Copilot** | [功能页](https://github.com/features/copilot) | 代码补全 | 程序员必备，实时写代码 |
+| **GitHub Copilot** | [功能页](https://github.com/features/copilot) | 代码补全 | 编程时实时补全代码 |
 | **Cursor** | [cursor.com](https://cursor.com) | AI 编辑器 | 可以在代码库里对话的 IDE |
 | **Claude Code** | [claude.ai](https://claude.ai) | 终端编程助手 | 命令行 AI 编程、代码审查 |
 | **Coze（扣子）** | [coze.cn](https://coze.cn) | 低代码智能体 | 搭建自己的 AI 机器人 |

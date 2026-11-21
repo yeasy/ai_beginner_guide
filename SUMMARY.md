@@ -118,7 +118,7 @@
   * [14.1 什么是智能体？](14_agents/14.1_what_is_agent.md)
   * [14.2 智能体是如何工作的？](14_agents/14.2_planning_action.md)
   * [14.3 低代码智能体开发平台](14_agents/14.3_no_code_platform.md)
-  * [14.4 多智能体协作系统：从独奏到交响乐](14_agents/14.4_multi_agent_systems.md)
+  * [14.4 多智能体协作系统](14_agents/14.4_multi_agent_systems.md)
   * [本章小结](14_agents/summary.md)
 
 * [第十五章 AI 伦理、安全与未来](15_ethics_future/README.md)
