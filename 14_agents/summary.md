@@ -277,9 +277,9 @@ graph TD
 - LangChain：最成熟，易上手
 - AutoGen（微软）：专为多智能体
 - Crew AI：新兴，快速发展
+- OpenAI Agents SDK：OpenAI 多智能体官方框架（2025-03 接替实验性 Swarm）
 
 商用：
-- OpenAI Agents SDK：OpenAI 多智能体官方框架（2025-03 接替实验性 Swarm）
 - Claude Agent SDK（Anthropic）：构建与运行 Claude 智能体的官方 SDK
 
 自建：
