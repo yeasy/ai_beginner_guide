@@ -52,13 +52,22 @@ LAB_MAPPINGS = (
 
 
 class LearningContractTests(unittest.TestCase):
+    def test_readme_links_to_the_online_learning_contract_and_lab_instructions(self) -> None:
+        self.assertIn(
+            "](https://yeasy.gitbook.io/ai_beginner_guide/fu-lu/appendix_d_learning_path)",
+            README,
+        )
+        self.assertIn(
+            "](https://github.com/yeasy/ai_beginner_guide/blob/main/labs/README.md#运行方式)",
+            README,
+        )
+
     def test_a_route_has_exact_entry_output_and_acceptance_contract(self) -> None:
-        for document in (README, LEARNING_PATH):
-            for phrase in A_PREREQUISITES + A_DELIVERABLES + A_ACCEPTANCE:
-                self.assertIn(phrase, document)
+        for phrase in A_PREREQUISITES + A_DELIVERABLES + A_ACCEPTANCE:
+            self.assertIn(phrase, LEARNING_PATH)
 
     def test_b_route_has_exact_entry_output_and_acceptance_contract(self) -> None:
-        for document in (README, LEARNING_PATH, LABS_README):
+        for document in (LEARNING_PATH, LABS_README):
             for phrase in B_PREREQUISITES + B_DELIVERABLES + B_ACCEPTANCE:
                 self.assertIn(phrase, document)
 
