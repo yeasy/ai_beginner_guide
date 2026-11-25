@@ -212,6 +212,27 @@ def job_block(workflow_text: str, job_name: str) -> str:
 
 
 class WorkflowSafetyTests(unittest.TestCase):
+    def test_mermaid_dependency_is_exact_and_lockfile_backed(self) -> None:
+        package = json.loads((ROOT / "tools/mermaid/package.json").read_text(encoding="utf-8"))
+        lock = json.loads((ROOT / "tools/mermaid/package-lock.json").read_text(encoding="utf-8"))
+        dependency = "@mermaid-js/mermaid-cli"
+        pinned = package["dependencies"][dependency]
+        self.assertIsNotNone(
+            re.fullmatch(r"(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)", pinned),
+            "mermaid-cli must be pinned to an exact version",
+        )
+        self.assertGreaterEqual(lock["lockfileVersion"], 3)
+        self.assertEqual(
+            lock["packages"][""]["dependencies"][dependency],
+            pinned,
+            "lockfile root dependency must match package.json",
+        )
+        self.assertEqual(
+            lock["packages"][f"node_modules/{dependency}"]["version"],
+            pinned,
+            "resolved mermaid-cli version must match package.json",
+        )
+
     def test_mdpress_is_extracted_to_an_isolated_directory(self) -> None:
         for workflow in MDPRESS_WORKFLOWS:
             with self.subTest(workflow=workflow.name):
