@@ -3,6 +3,8 @@ from __future__ import annotations
 import unittest
 from pathlib import Path
 
+from tools.build_html_reader import localize_gitbook_links
+
 
 ROOT = Path(__file__).resolve().parents[1]
 README = (ROOT / "README.md").read_text(encoding="utf-8")
@@ -52,6 +54,15 @@ LAB_MAPPINGS = (
 
 
 class LearningContractTests(unittest.TestCase):
+    def test_offline_learning_route_uses_the_bundled_page(self) -> None:
+        source = 'href="https://yeasy.gitbook.io/ai_beginner_guide/fu-lu/appendix_d_learning_path"'
+        sibling = 'href="https://yeasy.gitbook.io/llm_internals/fu-lu/appendix_d_learning_path"'
+        pages = {"appendices/appendix_d_learning_path.md": "p109"}
+        self.assertEqual(
+            localize_gitbook_links(source + " " + sibling, pages, "ai_beginner_guide"),
+            'href="#p109" ' + sibling,
+        )
+
     def test_readme_links_to_the_online_learning_contract_and_lab_instructions(self) -> None:
         self.assertIn(
             "](https://yeasy.gitbook.io/ai_beginner_guide/fu-lu/appendix_d_learning_path)",
